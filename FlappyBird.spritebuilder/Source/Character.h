@@ -10,6 +10,6 @@
 
 @interface Character : CCSprite
 
-//-(void) flap;
+-(void) flap;
 
 @end
