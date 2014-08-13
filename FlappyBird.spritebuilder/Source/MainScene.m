@@ -8,6 +8,7 @@
 
 #import "MainScene.h"
 #import "Obstacle.h"
+#import "Gamestate.h"
 
 @interface CGPointObject : NSObject
 {
@@ -116,8 +117,10 @@
 - (void)gameOver {
     if (!_gameOver) {
         _gameOver = TRUE;
-        [[CCDirector sharedDirector] replaceScene: [CCBReader loadAsScene:@"Gameover"]];
+        [[Gamestate sharedInstance] setCurrentScore:points];
 
+        [[CCDirector sharedDirector] replaceScene: [CCBReader loadAsScene:@"Gameover"]];
+        
         
         character.physicsBody.velocity = ccp(0.0f, character.physicsBody.velocity.y);
         character.rotation = 90.f;
