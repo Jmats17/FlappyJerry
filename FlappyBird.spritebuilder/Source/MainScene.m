@@ -116,8 +116,8 @@
 - (void)gameOver {
     if (!_gameOver) {
         _gameOver = TRUE;
-        CCScene *scene = [CCBReader loadAsScene:@"Gameover"];
-        [[CCDirector sharedDirector] replaceScene:scene];
+        [[CCDirector sharedDirector] replaceScene: [CCBReader loadAsScene:@"Gameover"]];
+
         
         character.physicsBody.velocity = ccp(0.0f, character.physicsBody.velocity.y);
         character.rotation = 90.f;
