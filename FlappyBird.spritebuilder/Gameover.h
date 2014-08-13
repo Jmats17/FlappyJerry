@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 Apportable. All rights reserved.
 //
 
-#import "CCNode.h"
+#import "CCScene.h"
 
-@interface Gameover : CCNode
+@interface Gameover : CCScene
 
 @end
