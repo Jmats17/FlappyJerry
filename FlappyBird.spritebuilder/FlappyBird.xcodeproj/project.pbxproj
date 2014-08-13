@@ -40,6 +40,7 @@
 		BCF66F7E19563563004691FD /* Goal.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF66F7719563563004691FD /* Goal.m */; };
 		BCF66F7F19563563004691FD /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF66F7919563563004691FD /* MainScene.m */; };
 		BCF66F8019563563004691FD /* Obstacle.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF66F7B19563563004691FD /* Obstacle.m */; };
+		D09DE198199BF6CF001CAABB /* Gameover.m in Sources */ = {isa = PBXBuildFile; fileRef = D09DE197199BF6CF001CAABB /* Gameover.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +103,8 @@
 		BCF66F7919563563004691FD /* MainScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainScene.m; path = Source/MainScene.m; sourceTree = "<group>"; };
 		BCF66F7A19563563004691FD /* Obstacle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Obstacle.h; path = Source/Obstacle.h; sourceTree = "<group>"; };
 		BCF66F7B19563563004691FD /* Obstacle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Obstacle.m; path = Source/Obstacle.m; sourceTree = "<group>"; };
+		D09DE196199BF6CF001CAABB /* Gameover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gameover.h; sourceTree = "<group>"; };
+		D09DE197199BF6CF001CAABB /* Gameover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gameover.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +148,8 @@
 				BCF66F7719563563004691FD /* Goal.m */,
 				BCF66F7819563563004691FD /* MainScene.h */,
 				BCF66F7919563563004691FD /* MainScene.m */,
+				D09DE196199BF6CF001CAABB /* Gameover.h */,
+				D09DE197199BF6CF001CAABB /* Gameover.m */,
 				BCF66F7A19563563004691FD /* Obstacle.h */,
 				BCF66F7B19563563004691FD /* Obstacle.m */,
 				B737893D1807617C0076A88C /* AppDelegate.h */,
@@ -363,6 +368,7 @@
 				BCF66F7E19563563004691FD /* Goal.m in Sources */,
 				BCF66F7D19563563004691FD /* GamePlayScene.m in Sources */,
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
+				D09DE198199BF6CF001CAABB /* Gameover.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
 				BCF66F8019563563004691FD /* Obstacle.m in Sources */,
 				BCF66F7C19563563004691FD /* Character.m in Sources */,
