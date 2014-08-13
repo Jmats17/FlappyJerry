@@ -12,7 +12,7 @@
 
 
 - (void)restart {
-    CCScene *scene = [CCBReader load:@"MainScene"];
+    CCScene *scene = [CCBReader loadAsScene:@"MainScene"];
     [[CCDirector sharedDirector] replaceScene:scene];
 }
 @end
