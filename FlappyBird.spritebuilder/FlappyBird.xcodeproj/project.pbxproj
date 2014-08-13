@@ -42,6 +42,7 @@
 		BCF66F8019563563004691FD /* Obstacle.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF66F7B19563563004691FD /* Obstacle.m */; };
 		D09DE198199BF6CF001CAABB /* Gameover.m in Sources */ = {isa = PBXBuildFile; fileRef = D09DE197199BF6CF001CAABB /* Gameover.m */; };
 		D09DE19B199BFB7F001CAABB /* startScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D09DE19A199BFB7F001CAABB /* startScene.m */; };
+		D09DE19E199BFC34001CAABB /* Gamestate.m in Sources */ = {isa = PBXBuildFile; fileRef = D09DE19D199BFC34001CAABB /* Gamestate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +109,8 @@
 		D09DE197199BF6CF001CAABB /* Gameover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gameover.m; sourceTree = "<group>"; };
 		D09DE199199BFB7F001CAABB /* startScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = startScene.h; sourceTree = "<group>"; };
 		D09DE19A199BFB7F001CAABB /* startScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = startScene.m; sourceTree = "<group>"; };
+		D09DE19C199BFC34001CAABB /* Gamestate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gamestate.h; sourceTree = "<group>"; };
+		D09DE19D199BFC34001CAABB /* Gamestate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gamestate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +156,8 @@
 				BCF66F7919563563004691FD /* MainScene.m */,
 				D09DE199199BFB7F001CAABB /* startScene.h */,
 				D09DE19A199BFB7F001CAABB /* startScene.m */,
+				D09DE19C199BFC34001CAABB /* Gamestate.h */,
+				D09DE19D199BFC34001CAABB /* Gamestate.m */,
 				D09DE196199BF6CF001CAABB /* Gameover.h */,
 				D09DE197199BF6CF001CAABB /* Gameover.m */,
 				BCF66F7A19563563004691FD /* Obstacle.h */,
@@ -375,6 +380,7 @@
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
 				D09DE198199BF6CF001CAABB /* Gameover.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
+				D09DE19E199BFC34001CAABB /* Gamestate.m in Sources */,
 				D09DE19B199BFB7F001CAABB /* startScene.m in Sources */,
 				BCF66F8019563563004691FD /* Obstacle.m in Sources */,
 				BCF66F7C19563563004691FD /* Character.m in Sources */,
