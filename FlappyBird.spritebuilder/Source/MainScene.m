@@ -127,11 +127,6 @@
     }
 }
 
-- (void)restart {
-    CCScene *scene = [CCBReader loadAsScene:@"MainScene"];
-    [[CCDirector sharedDirector] replaceScene:scene];
-}
-
 #pragma mark - Obstacle Spawning
 
 - (void)addObstacle {
