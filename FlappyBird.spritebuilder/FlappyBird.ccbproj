@@ -45,7 +45,7 @@
 	<key>publishEnablediPhone</key>
 	<true/>
 	<key>publishEnvironment</key>
-	<integer>0</integer>
+	<integer>1</integer>
 	<key>publishResolution_android_phone</key>
 	<true/>
 	<key>publishResolution_android_phonehd</key>
@@ -79,6 +79,21 @@
 		<dict>
 			<key>previewFolderHidden</key>
 			<true/>
+		</dict>
+		<key>FlappyBirdArtPack/fly3.png</key>
+		<dict>
+			<key>scaleFrom</key>
+			<integer>1</integer>
+		</dict>
+		<key>FlappyBirdArtPack/fly4.png</key>
+		<dict>
+			<key>scaleFrom</key>
+			<integer>1</integer>
+		</dict>
+		<key>FlappyBirdArtPack/jeremy.png</key>
+		<dict>
+			<key>scaleFrom</key>
+			<integer>4</integer>
 		</dict>
 		<key>Sprites</key>
 		<dict/>
